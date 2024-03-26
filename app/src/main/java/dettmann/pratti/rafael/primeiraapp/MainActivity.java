@@ -8,19 +8,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+/*Classe principal da app*/
 public class MainActivity extends AppCompatActivity {
 
-    /*Criação da activity*/
+    /*Método chamado sempre que uma tela é criada*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /*Cria os elementos de interface do arquivo .xml*/
         setContentView(R.layout.activity_main);
 
-        /*Obtendo id do botão enviar*/
+        /*Obtendo o botão enviar através do id*/
         Button btnEnviar = findViewById(R.id.btnEnviar);
 
         /*Ação a ser realizada ao pressionar o botão*/
         btnEnviar.setOnClickListener(new View.OnClickListener() {
+            /*onClick -> é executado quando o botão é clicado*/
             @Override
             public void onClick(View v) {
                 /*Obtendo id da caixa de texto*/

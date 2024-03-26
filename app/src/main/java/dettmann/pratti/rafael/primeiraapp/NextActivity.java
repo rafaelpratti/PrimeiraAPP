@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/*Classe da segunda tela*/
 public class NextActivity extends AppCompatActivity {
 
     /*Criação da activity*/
