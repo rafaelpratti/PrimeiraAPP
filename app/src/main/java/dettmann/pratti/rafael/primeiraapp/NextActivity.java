@@ -15,7 +15,7 @@ public class NextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next);
 
-        /*Obtendo a intenção que criou a activity*/
+        /*Obtendo a intenção que criou a Activity*/
         Intent i = getIntent();
 
         /*Obtendo o texto desta intenção*/

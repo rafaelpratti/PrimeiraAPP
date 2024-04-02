@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">First app</string>
-    <string name="btn_enviar">Send</string>
-    <string name="et_digite_aqui">Type here</string>
-</resources>

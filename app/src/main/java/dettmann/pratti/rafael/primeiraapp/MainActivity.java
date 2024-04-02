@@ -26,19 +26,19 @@ public class MainActivity extends AppCompatActivity {
             /*onClick -> é executado quando o botão é clicado*/
             @Override
             public void onClick(View v) {
-                /*Obtendo id da caixa de texto*/
+                /*Obtendo a caixa de texto*/
                 EditText etDigiteAqui = findViewById(R.id.etDigiteAqui);
 
                 /*Obtendo o texto digitado (após converter)*/
                 String textoDigitado = etDigiteAqui.getText().toString();
 
-                /*Declaração de intenção para mudar de activity*/
+                /*Declaração de intenção para mudar de Activity*/
                 Intent i = new Intent(MainActivity.this, NextActivity.class);
 
-                /*Enviar texto digitado para a próxima activity*/
+                /*Enviar texto digitado para a próxima Activity*/
                 i.putExtra("texto",textoDigitado);
 
-                /*Iniciar intenção*/
+                /*Iniciar próxima Activity a partir da intenção*/
                 startActivity(i);
             }
         });
